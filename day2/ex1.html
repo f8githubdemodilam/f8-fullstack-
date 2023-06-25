@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         body {
+            background-color: #e7e7e7;
+            box-sizing: border-box;
+         }
+         p {
+            width: 485px;
+            max-width: 100%;
+         }
+
+         .log-in {
+            display: flex;
+            width: 750px;
+            max-width: 100%;
+            gap: 50px;
+         }
+
+         .log-in > div {
+            flex: 5;
+         }
+
+         label {
+            font-weight: 600;
+         }
+
+         input,
+         select {
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            margin: 4px 0 12px 0;
+            padding: 8px;
+            border: 2px solid rgba(0, 0, 0, 0.3);
+         }
+         button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 0;
+            color: #fff;
+            background-color: blue;
+         }
+
+         button:hover {
+            cursor: pointer;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Try a free sample</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Minima accusamus tempore alias blanditiis aliquam?
+          Animi ea incidunt voluptate et iste exercitationem
+          ducimus quo minus velit aut.
+          Optio necessitatibus iure fugit.
+      </p>
+      <form action="">
+         <div class="log-in">
+            <div>
+               <label for="first-name">First name</label>
+               <input type="text" id="first-name" value="John" />
+            </div>
+            <div>
+               <label for="last-name">Last name</label>
+               <input type="text" id="last-name" value="Smith" />
+            </div>
+         </div>
+
+         <div class="log-in">
+            <div>
+               <label for="email">Email address</label>
+               <input type="email" id="email" value="john@example.com" />
+            </div>
+            <div>
+               <label for="address">Address</label>
+               <input type="text" id="address" value="Silk St" />
+            </div>
+         </div>
+
+         <div class="log-in">
+            <div>
+               <label for="city">City</label>
+               <input type="text" id="city" value="London" />
+            </div>
+            <div>
+               <label for="state">State <span>(optional)</span></label>
+               <input type="text" id="state" />
+            </div>
+         </div>
+
+         <div class="log-in">
+            <div>
+               <label for="ZIP-code">ZIP code</label>
+               <input type="text" id="ZIP-code" value="EC2Y BDS" />
+            </div>
+            <div>
+               <label for="country">Country</label>
+               <select name="country" id="country">
+                  <option value>United Kingdom</option>
+                  <option value></option>
+                  <option value></option>
+                  <option value></option>
+               </select>
+            </div>
+         </div>
+
+         <div>
+            <button type="submit">SEND ME FREE COFFEE</button>
+         </div>
+      </form>
+   </body>
+</html>
