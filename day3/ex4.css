@@ -1,0 +1,26 @@
+.map-trong {
+    height          : 285px;
+    width           : 250px;
+    background-color: violet;
+    padding         : 6px;
+    margin-left     : 10px;
+    margin-top      : 0px
+}
+
+.map-ngoai{
+    display: flex;
+    margin-top: 35px;
+}
+
+table {
+    border : 2px solid grey;
+    color  : grey;
+}
+
+p {
+    font-size: 20pxpx;
+}
+iframe{
+    width: 700px;
+    height: 295px;
+}

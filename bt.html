@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bt.css">
+    <style>
+        input:nth-of-type(1):checked ~ .content,
+        input:nth-of-type(1):checked ~ div
+        label:nth-of-type(1){
+            color: red;
+        }
+        input:nth-of-type(2):checked ~ .content,
+        input:nth-of-type(2):checked ~ div
+        label:nth-of-type(2){
+            color: green;
+        }
+        input:nth-of-type(3):checked ~ .content,
+        input:nth-of-type(3):checked ~ div
+        label:nth-of-type(3){
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <input type="radio" id="red" name="tex">
+   <input type="radio" id="green" name="tex">
+   <input type="radio" id="blue" name="tex">
+  
+   <label for="red" class="title"> <span>red</span></label>
+   <label for="green"> <span>green</span></label>
+  <label for="blue">  <span>blue</span></label>
+  
+
+   
+   <hr>
+   <div class="content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora alias odit incidunt laudantium voluptate, quaerat labore cum eum veniam cumque, maiores corrupti deserunt aut blanditiis expedita numquam culpa officia sequi sunt reiciendis! Corrupti quasi consectetur asperiores. Eius error eligendi, fugit quisquam assumenda animi, optio, aliquam et consequuntur ipsam minus. Veritatis eum eaque sequi laborum quidem deleniti nesciunt aperiam excepturi, quibusdam molestiae corporis minima a hic? Suscipit vel atque, et totam eius corrupti maiores sapiente commodi tenetur? Reiciendis earum culpa soluta corporis nemo ea cum facilis numquam voluptas rem nulla, voluptatem architecto, iste veritatis! Neque ipsa hic quam ducimus nihil.
+   </div>
+</body>
+</html>

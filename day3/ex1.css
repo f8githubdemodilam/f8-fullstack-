@@ -1,0 +1,60 @@
+.contact-title, .container {
+    margin-left: 40px;
+}
+
+hr {
+    width: 50px;
+    margin-left:0px;
+    height: 2px;
+    border: 0;
+    background-color: orange
+}
+
+.contact-info {
+    display: flex;
+    gap: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+i {
+    font-size: 20px;
+    color: grey;
+}
+
+p {
+    display: inline;
+    margin-left: 10px;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 10px;
+}
+
+input {
+    height: 30px;
+    
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #24a99b;
+    border: none;
+}
+.first{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+}

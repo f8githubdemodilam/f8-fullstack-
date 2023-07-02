@@ -1,0 +1,31 @@
+.title{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 70px;
+    box-shadow: 1px;
+    font-weight: bold;
+    color: burlywood;
+}
+input{
+    padding: 18px 24px;
+    width: 250px;
+
+}
+.form{
+   margin: 0 auto;
+   
+}
+button{
+    padding: 20px 24px;
+    width: 302px;
+    border-radius: 5px;
+    background-color: brown;
+    border: 0;
+}
+td{
+    font-weight: bold;
+}

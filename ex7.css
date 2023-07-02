@@ -1,0 +1,25 @@
+ .Checbox input:checked ~ span{
+    color:red;
+}
+
+
+
+
+/* .products h1:first-child{
+    color: blue;
+} */
+/* .products h2:last-child{
+    color: brown;
+} */
+/* .products .item:last-of-type{
+    color: brown;
+} */
+/* .products h2:nth-child(3n+2){
+    color: blue;
+} */
+/* .products h2:nth-last-of-type(2n+1) {
+    color: brown;
+} */
+/* .products p:nth-of-type(2n+1) {
+    color: brown;
+} */
