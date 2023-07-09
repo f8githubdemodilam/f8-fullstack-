@@ -1,0 +1,18 @@
+.box{
+    width: 100vh;
+    height: 100vw;
+    background: green;
+    /* border-radius: 10px 20px; */
+    /* border-radius: 50px; */
+}
+.container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid red;
+}
+.span {
+    border: 1px solid red;
+    width: 100px;
+    display: inline-block;
+    color: aliceblue;
+}
