@@ -1,0 +1,21 @@
+/* .box {
+  width: 300px;
+  border: 1px solid red;
+  margin: 30px auto;
+  padding: 15px;
+  box-sizing: content-box;
+} */
+.products {
+  width: 800px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+.products .item {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  background-color: blue;
+  color: azure;
+  border: 1px solid white;
+  padding: 20px;
+}

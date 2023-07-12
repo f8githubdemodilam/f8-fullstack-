@@ -1,0 +1,19 @@
+.box {
+  width: 300px;
+  border: 1px solid red;
+  margin: 30px auto;
+}
+.box ul {
+  /* list-style-position: inside;
+  list-style-type: upper-roman; */
+  /* list-style: inside decimal; */
+  list-style: none;
+}
+.box ul li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("./8725445_angle_right_icon.png") left center / 20px no-repeat;
+  vertical-align: middle;
+}

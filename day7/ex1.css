@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image img {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+}
+.title {
+  margin-top: 10px;
+}
+.box {
+  display: inline-block;
+  background-color: #bf4240;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  position: absolute;
+  right: 17px;
+  top: 11vh;
+}

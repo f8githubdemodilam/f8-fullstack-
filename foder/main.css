@@ -1,0 +1,32 @@
+.box {
+  width: 300px;
+  border: 1px solid red;
+  margin: 30px auto;
+  /* overflow: auto; */
+}
+.box::after {
+  content: ;
+  display: block;
+  clear: both;
+}
+
+.col-1 {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  color: aliceblue;
+  float: left;
+}
+.col-2 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  color: aliceblue;
+  float: left;
+}
+.clearfix {
+  clear: both;
+}
+.text {
+  clear: both;
+}

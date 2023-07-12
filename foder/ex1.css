@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  shape-outside: circle();
+  float: left;
+}
+p {
+  max-width: 300px;
+}
+.box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box {
+  border: 1px solid red;
+  width: 300px;
+}

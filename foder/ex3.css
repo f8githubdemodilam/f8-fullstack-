@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box p {
+  border: 1px solid red;
+  /* visibility: hidden; */
+  /* display: none; */
+  /* opacity: 0; */
+  /* width: 500px; */
+  display: inline-block;
+}
+p {
+  max-width: 500px;
+}
