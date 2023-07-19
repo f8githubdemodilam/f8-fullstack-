@@ -54,10 +54,10 @@ a {
 }
 .form a::before {
   content: "";
-  height: 4px;
+  height: 2px;
   background-color: red;
   position: absolute;
-  bottom: -10px;
+  bottom: -5px;
   width: 100%;
   display: none;
 }

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.list_item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 2px solid rgba(158, 152, 152, 0.352);
+  width: 350px;
+  height: 250px;
+  padding: 30px;
+  position: relative;
+}
+
+.background {
+  width: 346px;
+  height: 246px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 2s ease, background-color 2s ease;
+}
+
+.item:hover .background {
+  background-color: rgba(88, 176, 126, 0.438);
+  opacity: 1;
+}
+
+.item:hover {
+  background-image: url(../../imageANDicon/job01.jpg);
+}
+
+.item i {
+  font-size: 40px;
+  color: rgba(4, 161, 119, 0.692);
+}
+
+.box {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 15px;
+}
+
+.item .content {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item .content h3 {
+  transition: transform 0.9s ease;
+}
+
+.item .content p {
+  transition: transform 0.3s ease 0.3s;
+  color: rgb(220, 46, 58);
+}
+.item .content .icon {
+  position: absolute;
+  bottom: -5px;
+  transition: transform 0.5s ease;
+  visibility: hidden;
+  color: white;
+}
+
+.item .content a {
+  text-decoration: none;
+}
+
+.item:hover .content h3 {
+  transform: translateY(-40px);
+  color: white;
+}
+
+.item:hover .content p {
+  transform: translateY(-30px);
+  color: white;
+}
+
+.item:hover .content .icon {
+  transform: translateY(-30px);
+  visibility: visible;
+}
+
+.item:hover .content .icon a {
+  color: white;
+}
+
+.item:hover .box .big_icon {
+  display: none;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon .arrow {
+  position: relative;
+}
+
+.icon .arrow i:first-child {
+  position: absolute;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.icon .arrow i:last-child {
+  font-size: 30px;
+  transition: font-weight 0.2s ease;
+  font-weight: 100;
+}
+
+.icon .arrow:hover i:last-child {
+  font-weight: 900;
+}
+
+.icon .arrow:hover i:first-child {
+  color: white;
+}

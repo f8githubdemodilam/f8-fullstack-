@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 35px;
+  padding: 10px 0 20px 0;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.box,
+.box_select {
+  width: 40%;
+  height: 60px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.box input,
+.box_select .select,
+.box_textarea textarea {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(176, 169, 169, 0.772);
+  border-radius: 10px;
+  padding: 15px 10px 0 20px;
+  color: rgb(146, 140, 140);
+}
+
+.box label,
+.box span {
+  position: absolute;
+  left: 20px;
+  top: 22px;
+  transition: top 0.2s ease;
+  color: rgb(146, 140, 140);
+}
+
+input:focus ~ label {
+  top: 5px;
+  font-size: 13px;
+}
+
+.box_textarea {
+  width: calc(80% + 20px);
+  height: 150px;
+}
+
+.box_select i {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgb(146, 140, 140);
+}
+
+.box_select {
+  position: relative;
+}
+
+.box_select .list {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  height: 5rem;
+  border: 2px solid rgba(176, 169, 169, 0.772);
+  border-radius: 10px;
+  color: rgba(147, 139, 139, 0.772);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+  opacity: 0;
+}
+
+.box_select:hover .list,
+.box_select .list:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* btn */
+
+.btn button {
+  display: block;
+  margin: 40px auto;
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: rgb(69, 69, 243);
+  border: none;
+  border-radius: 99px;
+  font-weight: 600;
+  cursor: pointer;
+}

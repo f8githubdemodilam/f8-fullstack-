@@ -1,0 +1,16 @@
+body {
+  padding: 300px;
+}
+
+.container:hover .box {
+  transform: scale(2) rotate(45deg);
+  /* transform: skew(60deg 20deg); */
+  /* transform: translateX(); */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: orange;
+  transition: 0.5s;
+}

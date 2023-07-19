@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.timeline-cha {
+  width: 50%;
+}
+.image {
+  width: 50%;
+  position: relative;
+  top: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.image .anh-1 {
+  width: 270px;
+  height: 300px;
+  border: none;
+  position: absolute;
+  left: 50px;
+  display: block;
+  margin-top: 20px;
+}
+.image .anh-2 {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  top: 200px;
+  left: 5px;
+  background-color: aqua;
+}
+.timeline {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.cham-xanh {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+.thanh-doc {
+  width: 1px;
+  height: 95px;
+  background-color: gray;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.badge {
+  border-radius: 50vw;
+  padding: 4px 8px;
+  background-color: goldenrod;
+  color: white;
+}
