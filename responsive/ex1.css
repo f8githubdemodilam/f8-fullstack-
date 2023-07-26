@@ -1,0 +1,22 @@
+/* Adaptive
+-tạo ra 1 phiên bản giao diện khác
+dựa vào thiết kế
+ */
+/* 
+ resonsive
+ -Thiết web đáp ứng
+ -dùng css
+ -dựa vào kích thước trình duyệt
+  */
+/* Breakpoint
+  -Điểm dừng kích thước màn hình mà tại đó giao diện sẽ thay đổi để chuyển qua thiết bị khác 
+  - Không có reakpoint cốddinhj cho tất cả dự án*
+  -các breakpoint phổ biến:
+  576px
+  768px
+  992px
+  1200px
+  1400px/
+  /* Media quẻies
+  @media all|screen|print and (min-width|max-width;breakpoint)selecter {
+    propety:value */

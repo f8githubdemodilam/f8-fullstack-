@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: green;
+  --secondary-color: blue;
+  --tex-color: red;
+  --font-family: roboto, sans-serif;
+  --font-style: italic;
+}
+body {
+  color: var(--primary-color);
+}
+.box {
+  /* border: 3px solid var(--secondary-color); */
+  font-style: italic;
+  border-color: brown;
+  /* secondery-color:red; */
+}
+.box p {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+}
+.box h1 {
+  font-style: var(--);
+  color: var(--secondary-color);
+}

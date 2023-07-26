@@ -13,6 +13,7 @@
   top: 20px;
   margin-left: 40px;
   margin-top: 10px;
+  display: inline-block;
 }
 .image .anh-1 {
   width: 270px;

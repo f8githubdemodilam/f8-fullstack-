@@ -28,8 +28,6 @@ header {
   margin-left: auto;
   color: #fff;
   font-size: 20px;
-  transform: scale(0);
-  opacity: 0;
 }
 
 /* Cart preview */
@@ -37,17 +35,21 @@ header {
   position: absolute;
   top: 46px;
   right: -8px;
-
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-
   min-width: 250px;
   min-height: 120px;
   padding: 10px;
   border-radius: 3px;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.3));
   background: #fff;
+  transform: scale(0);
+  opacity: 0;
+  transform-origin: 93% top;
+  transition: opacity, transform;
+  transition-duration: 0.5s;
 }
 
 /* Cart arrow top */
@@ -60,11 +62,7 @@ header {
   border-color: transparent transparent #fff;
 }
 
-.cart-message {
-  color: #333;
-  font-size: 14px;
-}
-.cart-btn:hover {
+.cart-btn:hover .cart-preview {
   transform: scale(1);
-  opacity: 100%;
+  opacity: 1;
 }

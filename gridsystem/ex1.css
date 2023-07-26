@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --container-width: 1200px;
+}
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row [class^="col-"] {
+  --column-number: calc(12 / var(--column-size));
+  --column-width: calc(100% / var(--column-number));
+  flex-basis: var(--column-width);
+  max-width: var(--column-width);
+}
