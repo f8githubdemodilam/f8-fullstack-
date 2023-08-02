@@ -1,0 +1,50 @@
+// * {
+//   padding: 0;
+//   margin: 0;
+// }
+
+// body {
+//   color: $texcolor;
+//   font-size: $fontsize;
+//   font-family: $fonts;
+//   line-height: 1.25;
+// }
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+// a {
+//   text-decoration: none;
+//   color: $linkcolor;
+//   &:hover {
+//     color: $primarycolor;
+//   }
+// }
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   color: $headingcolor;
+// }
+// ul,
+// ol {
+//   list-style: none;
+// }
+// html {
+//     font-size: 62.5%;
+//   }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+  border: none;
+  font-family: inherit;
+}

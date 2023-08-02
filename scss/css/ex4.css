@@ -1,0 +1,16 @@
+.col-small {
+  width: 40%;
+  font-weight: normal;
+}
+
+.col-medium {
+  width: 60%;
+  font-weight: 400;
+}
+
+.col-large {
+  width: 80%;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=ex4.css.map */

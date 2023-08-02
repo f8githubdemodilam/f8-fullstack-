@@ -1,0 +1,32 @@
+@mixin section-base {
+  padding: 30px auto;
+  boder: 1px solid #ccc;
+}
+
+@mixin green {
+  color: green;
+}
+
+@mixin red {
+  color: red;
+  @include green;
+}
+
+@mixin center($width, $spacer: 0) {
+  width: $width;
+  margin: $spacer auto;
+}
+
+@mixin columnn {
+  .col {
+    width: 50%;
+  }
+}
+
+.products {
+  @include section-base;
+  background-color: aqua;
+  @include red;
+}
+
+@include columnn;

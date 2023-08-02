@@ -1,0 +1,33 @@
+@mixin center($type) {
+  // viet code mixin
+  @if $type == flex {
+    display: flex;
+    justify-content: center;
+  } @else if $type == position {
+    position: relative;
+
+    > * {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%) position;
+    }
+  } @else if $type == margin {
+    > * {
+      margin: 0 auto;
+    }
+  } @else {
+    text-align: center;
+    > * {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+  .container {
+    @include center(position);
+    div {
+      width: 300px;
+      border: 1px solid red;
+    }
+  }
+}

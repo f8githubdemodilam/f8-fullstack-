@@ -1,0 +1,13 @@
+.products {
+  padding: 30px auto;
+  boder: 1px solid #ccc;
+  background-color: aqua;
+  color: red;
+  color: green;
+}
+
+.col {
+  width: 50%;
+}
+
+/*# sourceMappingURL=ex2.css.map */
